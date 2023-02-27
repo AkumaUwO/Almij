@@ -42,7 +42,7 @@ html{
 
 #inicio .contenido header .contenido-header h1{
 	text-align: center;
-	color: #009CCF;
+	color: #FC8535;
 }
 
 #inicio .contenido header .contenido-header nav ul{
@@ -60,7 +60,7 @@ html{
 
 }
 #inicio .contenido header .contenido-header nav ul li a:hover{
-	color: #009CCF;
+	color: #FC8535;
 }
 
 #inicio .contenido header .contenido-header .redes a{
@@ -72,11 +72,11 @@ html{
 }
 
 #inicio .contenido header .contenido-header .redes a:hover{
-	color: #009CCF;
+	color: #FC8535;
 }
 
 #inicio .contenido header .contenido-header .seleccionado{
-	color: #009CCF;
+	color: #FC8535;
 }
 
 #inicio .contenido header .contenido-header .redes img{
@@ -88,8 +88,8 @@ html{
 }
 
 #inicio .contenido header .contenido-header .redes img:hover{
-	background-color: #009CCF;
-	border: 2px solid #009CCF;
+	background-color: #FC8535;
+	border: 2px solid #FC8535;
 	border-radius: 50px;
 	height: 2.5em;
 }
@@ -123,7 +123,7 @@ html{
 
 #inicio .contenido .presentacion h2 span{
 	font-size: 25px;
-	color: #009CCF;
+	color: #FC8535;
 
 }
 
@@ -148,7 +148,7 @@ html{
 }
 
 #inicio .contenido .presentacion a:hover{
-	background-color: #009CCF;
+	background-color: #FC8535;
 
 }
 
@@ -167,8 +167,8 @@ html{
 }
 
 #icono-nav img:hover{
-	background-color: #009CCF;
-	border: 2px solid #009CCF;
+	background-color: #FC8535;
+	border: 2px solid #FC8535;
 	border-radius: 5px;
 	height: 2em;
 }
@@ -218,7 +218,7 @@ html{
 }
 
 #sobremi .sobremi h2 span{
-	color: #009CCF;
+	color: #FC8535;
 }
 
 #sobremi .sobremi h3{
@@ -248,7 +248,7 @@ html{
 }
 
 #sobremi .sobremi a:hover{
-	background-color: #009CCF;
+	background-color: #FC8535;
 	color: #fff;
 }
 
@@ -266,7 +266,7 @@ html{
 	text-transform: uppercase;
 	color: #111B57;
 	text-decoration: underline;
-	text-decoration-color: #d3d3d3;
+	text-decoration-color: #FC8535;
 	text-decoration-thickness: 5px;
 }
 
@@ -330,108 +330,6 @@ html{
 	line-height: 22px;
 	
 }
-
-/*Sección Habilidades*/
-
-.contenedor-skills{
-	background: linear-gradient(#2767D2, rgba(0, 0, 56, .6)), url("../images/fondo-skills.jpg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	padding: 100px 0;
-	text-align: center;
-
-}
-
-.contenedor-skills .skill{
-	max-width: 600px;
-	margin: 30px auto;
-
-}
-
-.contenedor-skills .skill .info{
-	display: flex;
-	justify-content: space-between;
-
-}
-
-.contenedor-skills .skill .lista{
-	display: inline-block;
-	margin-right: 20px;
-	height: 10px;
-	width: 10px;
-	background-color: #fff;
-}
-
-.contenedor-skills .skill .barra{
-	background-color: #919191;
-	width: 100%;
-	height: 6px;
-	margin: 10px 0;
-}
-
-.contenedor-skills .skill .barra .barra-progreso1{
-	background-color: #fff;
-	width: 85%;
-	height: 6px;
-	animation: progreso1 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso2{
-	background-color: #fff;
-	width: 75%;
-	height: 6px;
-	animation: progreso2 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso3{
-	background-color: #fff;
-	width: 80%;
-	height: 6px;
-	animation: progreso3 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso4{
-	background-color: #fff;
-	width: 70%;
-	height: 6px;
-	animation: progreso4 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso5{
-	background-color: #fff;
-	width: 60%;
-	height: 6px;
-	animation: progreso5 2s forwards;
-}
-
-/*creamos las animaciones a las barras*/
-@keyframes progreso1{
-	0%{width: 0;}
-	100%{width: 85%;}
-}
-
-@keyframes progreso2{
-	0%{width: 0;}
-	100%{width: 75%;}
-}
-
-@keyframes progreso3{
-	0%{width: 0;}
-	100%{width: 80%;}
-}
-
-@keyframes progreso4{
-	0%{width: 0;}
-	100%{width: 70%;}
-}
-
-@keyframes progreso5{
-	0%{width: 0;}
-	100%{width: 60%;}
-}
-
 /*Sección Portafolio*/
 
 #portfolio{
@@ -446,7 +344,7 @@ html{
 	text-transform: uppercase;
 	color: #111B57;
 	text-decoration: underline;
-	text-decoration-color: #d3d3d3;
+	text-decoration-color: #FC8535;
 	text-decoration-thickness: 5px;
 }
 
@@ -480,7 +378,7 @@ html{
 	position: absolute;
 	left: 0;
 	background-color: rgba(0, 0, 0, .8);
-	color: #009CCF;
+	color: #FC8535;
 	width: 100%;
 	padding: 10px;
 	opacity: 0;
@@ -491,6 +389,17 @@ html{
 #portfolio .fila .proyecto:hover .info{
 	opacity: 1;
 	bottom: 0;
+}
+
+#portfolio .fila .proyecto .info a{
+text-decoration: none;
+color: #FC8535;
+}
+
+#portfolio .fila .proyecto .info a:hover{
+	transition: .5s;
+	color: #FFF;
+	cursor: pointer;
 }
 
 /*Seccion contacto*/
@@ -506,7 +415,7 @@ html{
 	text-transform: uppercase;
 	color: #111135;
 	text-decoration: underline;
-	text-decoration-color: #d3d3d3;
+	text-decoration-color: #FC8535;
 	text-decoration-thickness: 5px;
 }
 
@@ -554,11 +463,12 @@ html{
 }
 
 #contacto .btn-enviar:hover{
-	background-color: #009CCF;
+	background-color: #FC8535;
 	color: #fff;
 }
 
 footer{
+	width: 100%;
 	background-color: #000;
 	color: #fff;
 	text-align: center;
@@ -583,8 +493,8 @@ footer img{
 }
 
 footer img:hover{
-	background-color: #009CCF;
-	border: 2px solid #009CCF;
+	background-color: #FC8535;
+	border: 2px solid #FC8535;
 	border-radius: 50px;
 	height: 1.5em;
 }
@@ -593,7 +503,7 @@ footer img:hover{
 
 @media screen and (max-width:900px){
 	.redes{
-		display: none;
+		display: initial;
 	}
 
 	nav{
